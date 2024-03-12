@@ -5,7 +5,7 @@
 		<eng>Software Multi-Plex</eng>
 		<loc>Software Multi-Plex</loc>
 	</AddMenu>
-	<Version>1.2.0</Version>
+	<Version>2.0.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>100</MaxOccurrence>
 	<MainPageGUID>8413aea8-b960-4338-8def-49dbabb5ab11</MainPageGUID>
@@ -137,16 +137,13 @@
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Channel.vi</Path>
 			</Item2Launch>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\ActionVIOnDelete.vi</Path>
-			</ActionVIOnDelete>
 		</Page>
 		<Page>
 			<Name>
 				<eng>Selector</eng>
 				<loc>Selector</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>f771f13a-6075-4c4a-afb5-40bc181a976f</GUID>
 			<Glyph>
@@ -160,9 +157,10 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Input 1</eng>
-				<loc>Input 1</loc>
+				<eng>Input</eng>
+				<loc>Input</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>9f18dc13-e592-4b02-ba31-c3f4df680c59</GUID>
 			<Glyph>
@@ -171,23 +169,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Input 1.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Input 2</eng>
-				<loc>Input 2</loc>
-			</Name>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>b828d39d-a370-4ba9-a2f2-e646931ac0d5</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\Proc Step Set Variable.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Input 2.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Input.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -195,6 +177,7 @@
 				<eng>Output</eng>
 				<loc>Output</loc>
 			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
 			<GUID>dd786ee9-856f-42b8-938b-ea7d801d6c35</GUID>
 			<Glyph>
@@ -204,21 +187,6 @@
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Output.vi</Path>
-			</Item2Launch>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Input 3</eng>
-				<loc>Input 3</loc>
-			</Name>
-			<GUID>bb107371-342f-4e74-a729-9a180c7afd87</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\Proc Step Set Variable.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Input 3.vi</Path>
 			</Item2Launch>
 		</Page>
 	</Pages>

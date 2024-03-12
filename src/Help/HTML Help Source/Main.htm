@@ -31,27 +31,19 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 
 
 		<h2>Introduction</h2>		
-		<p>Welcome to the documentation for the Software Multi-Plex Custom Device. This document will provide information on how to setup and use the Software Multi-Plex Custom Device.</p>
+		<p>Welcome to the documentation for the Software Multi-Plex Custom Device. This document will provide information on how to setup and use the Software Multi-Plex Custom Device. Each channel of the Software Multi-Plex Custom Device routes the value of the Input channel specified by the index entered in the Selector channel to its Output channel. Selector values outside a valid range will result in no change of the Output channel.</p>
 		<p><br></p>
 
 
 		<h2>Adding Software Multi-Plex Channels</h2>
-		<p>Add Software Multi-Plex Channels via the Software Multi-Plex main page. Specify the number of channels to add in the "Number of Channels to Add" field and click the "Add Channels" button. Each channel will allow the data of one of several inputs to be dynamically directed to a single output during deployment.</p>
+		<p>Click on the Add Channels button to add multiplex channels. In the dialog, select the number of channels to add, the number of inputs per channel, and specify a channel name prefix and indexing scheme. </p>
 		<p><br></p>
-
-
-		<h2>Software Multi-Plex Channels</h2>
-		<p>Each Multi-Plex channel consists of a single multi-plexer, containing a number of inputs, a single output, and a selector. Configuration for each of these is detailed below:</p>
-
-		<h3 style="font-size:100%;">Inputs:</h3>
-		<p>Select an available channel to be used as an input for the Multi-Plex and click the Map Input button to set it.</p>
-
-		<h3 style="font-size:100%;">Output:</h3>
-		<p>Select an available channel to be used as the output for the Multi-Plex and click the Map Output button to set it.</p>
 		
-		<h3 style="font-size:100%;">Selector:</h3>
-		<p>During deployment, set this channel to the number corresponding to the input to be multi-plexed to the output. Values outside the number of inputs will result in no change to the Multi-Plex's current state.</p>
+		<h2>Global Selector Channel</h2>
+		<p>Check the Global Selector checkbox control to have all multiplex channels select which Input to route to their Output based on a single global Selector channel. Uncheck this box to create Selector channels on a per-muliplex channel basis. </p>
 		<p><br></p>
+
+
 		
 		<h2>Version History</h2>
 		<p>
@@ -75,6 +67,11 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 					<td><strong>1.2.0</strong></td>
 					<td>October 2022</td>
 					<td>Added additional namespace protection for dependent libraries.</td>
+				</tr>
+				<tr>
+					<td><strong>2.0.0</strong></td>
+					<td>November 2022</td>
+					<td>Removed implicit mapping to simplify configuration. Added the ability to multiplex an arbitrary number of inputs.</td>
 				</tr>
 			</table>
 		</p>

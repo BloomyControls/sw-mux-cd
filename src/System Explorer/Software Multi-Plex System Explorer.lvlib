@@ -7,13 +7,10 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-				<Item Name="ActionVIOnDelete.vi" Type="VI" URL="../ActionVIOnDelete.vi"/>
 			</Item>
 			<Item Name="Pages" Type="Folder">
 				<Item Name="Channel.vi" Type="VI" URL="../Channel.vi"/>
-				<Item Name="Input 1.vi" Type="VI" URL="../Input 1.vi"/>
-				<Item Name="Input 2.vi" Type="VI" URL="../Input 2.vi"/>
-				<Item Name="Input 3.vi" Type="VI" URL="../Input 3.vi"/>
+				<Item Name="Input.vi" Type="VI" URL="../Input.vi"/>
 				<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 				<Item Name="Output.vi" Type="VI" URL="../Output.vi"/>
 				<Item Name="Selector.vi" Type="VI" URL="../Selector.vi"/>
@@ -25,19 +22,21 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Property Accessors" Type="Folder">
-				<Item Name="Get Input Path.vi" Type="VI" URL="../SubVIs/Get Input Path.vi"/>
-				<Item Name="Get Output Path.vi" Type="VI" URL="../SubVIs/Get Output Path.vi"/>
-				<Item Name="Set Input Path.vi" Type="VI" URL="../SubVIs/Set Input Path.vi"/>
-				<Item Name="Set Output Path.vi" Type="VI" URL="../SubVIs/Set Output Path.vi"/>
+				<Item Name="Get Global Selector.vi" Type="VI" URL="../SubVIs/Get Global Selector.vi"/>
+				<Item Name="Get Number of Inputs.vi" Type="VI" URL="../SubVIs/Get Number of Inputs.vi"/>
+				<Item Name="Set Global Selector.vi" Type="VI" URL="../SubVIs/Set Global Selector.vi"/>
+				<Item Name="Set Number of Inputs.vi" Type="VI" URL="../SubVIs/Set Number of Inputs.vi"/>
 			</Item>
 			<Item Name="Utility" Type="Folder">
+				<Item Name="Add Channels Dialog.vi" Type="VI" URL="../SubVIs/Add Channels Dialog.vi"/>
 				<Item Name="Add Channels.vi" Type="VI" URL="../SubVIs/Add Channels.vi"/>
-				<Item Name="Clear Channel Mapping.vi" Type="VI" URL="../SubVIs/Clear Channel Mapping.vi"/>
-				<Item Name="Get Channel References.vi" Type="VI" URL="../SubVIs/Get Channel References.vi"/>
-				<Item Name="Map Channel.vi" Type="VI" URL="../SubVIs/Map Channel.vi"/>
-				<Item Name="Set Up Tree Browser.vi" Type="VI" URL="../SubVIs/Set Up Tree Browser.vi"/>
+				<Item Name="Sort Main Properties.vi" Type="VI" URL="../SubVIs/Sort Main Properties.vi"/>
+				<Item Name="Update Selector Channel.vi" Type="VI" URL="../SubVIs/Update Selector Channel.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Channel Config.ctl" Type="VI" URL="../Types/Channel Config.ctl"/>
+			<Item Name="Index Type.ctl" Type="VI" URL="../Types/Index Type.ctl"/>
+		</Item>
 	</Item>
 </Library>

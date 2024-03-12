@@ -72,7 +72,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NI_VS UI Tree Alias Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Tree and Alias Browser/NI_VS UI Tree Alias Browser.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -102,9 +101,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -116,19 +112,19 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../release/Software Multi-Plex</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../outputs/Software Multi-Plex</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../release/Software Multi-Plex</Property>
+				<Property Name="Destination[0].path" Type="Path">../outputs/Software Multi-Plex</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../release/Software Multi-Plex/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../outputs/Software Multi-Plex/Windows</Property>
 				<Property Name="Destination[2].destName" Type="Str">Software Multi-Plex Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../release/Software Multi-Plex/Windows/Software Multi-Plex Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../outputs/Software Multi-Plex/Windows/Software Multi-Plex Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{30245238-3C41-4721-AAF6-24E19582BCEA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C80CA216-8F54-4804-8BA6-2F58CCBB4C58}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -192,17 +188,17 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../release/Software Multi-Plex/Windows/Software Multi-Plex Engine Windows.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../outputs/Software Multi-Plex/Windows/Software Multi-Plex Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../release/Software Multi-Plex/Windows/Software Multi-Plex Engine Windows.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../outputs/Software Multi-Plex/Windows/Software Multi-Plex Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../release/Software Multi-Plex/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../outputs/Software Multi-Plex/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3344973E-FA52-4E37-84B7-F4EBCE6B97F0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AC9EE6AC-6589-4BAE-94DE-65FEF419F4F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Software Multi-Plex Engine.lvlib/RT Driver VI.vi</Property>
@@ -393,7 +389,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../release/Software Multi-Plex</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../outputs/Software Multi-Plex</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Software Multi-Plex Engine Pharlap.llb</Property>
@@ -406,7 +402,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Pharlap</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FF29C24E-DD9D-41F5-A243-974BBAEA8209}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D99B739-FBE0-4ADE-A4A4-C02B60546D44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Software Multi-Plex Engine.lvlib/RT Driver VI.vi</Property>
@@ -630,7 +626,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../release/Software Multi-Plex</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../outputs/Software Multi-Plex</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{404D6B07-67A0-4316-9956-B550D4D5F685}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/VxWorks/Software Multi-Plex Engine VxWorks.llb</Property>
@@ -643,7 +639,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/VxWorks</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{69E292C3-6650-495C-A327-D82CB2FC7733}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{47199575-4610-405E-AD7E-ED54B1CD01B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Software Multi-Plex Engine.lvlib/RT Driver VI.vi</Property>
@@ -836,11 +832,11 @@ DirectoryIndex index.htm
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../release/Software Multi-Plex</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../outputs/Software Multi-Plex</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6A4F6BB2-7C0A-4BB7-90AD-B80B3787E82B}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Software Multi-Plex Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Software Multi-Plex Engine LinuxARM.llb</Property>
@@ -850,7 +846,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F329E858-E987-4C1F-A0F5-7405C5F19B40}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CBB125CF-DAD5-4DCA-97BC-BB5BF0425EC3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Software Multi-Plex Engine.lvlib/RT Driver VI.vi</Property>
@@ -1047,11 +1043,11 @@ DirectoryIndex index.htm
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../release/Software Multi-Plex</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../outputs/Software Multi-Plex</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{81058B3E-5446-448B-BC16-A6F0DE3EAE88}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Software Multi-Plex Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Software Multi-Plex Engine Linux64.llb</Property>
@@ -1061,7 +1057,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C328078E-657F-4E72-9E54-00616AEC24B8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C0101709-DEDF-458A-83D0-EF4D0A403482}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Software Multi-Plex Engine.lvlib/RT Driver VI.vi</Property>
