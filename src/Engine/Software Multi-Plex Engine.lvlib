@@ -6,6 +6,7 @@
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder"/>
 		<Item Name="Run" Type="Folder">
+			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
 			<Item Name="Mult-Plex Switch POC.Async.vi" Type="VI" URL="../Mult-Plex Switch POC.Async.vi"/>
 			<Item Name="Multi-Plex.vi" Type="VI" URL="../Multi-Plex.vi"/>
 		</Item>

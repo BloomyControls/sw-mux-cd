@@ -30,6 +30,9 @@
 			<Item Name="Utility" Type="Folder">
 				<Item Name="Add Channels Dialog.vi" Type="VI" URL="../SubVIs/Add Channels Dialog.vi"/>
 				<Item Name="Add Channels.vi" Type="VI" URL="../SubVIs/Add Channels.vi"/>
+				<Item Name="Clear RTDriver VIs.vi" Type="VI" URL="../Clear RTDriver VIs.vi"/>
+				<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+				<Item Name="Set RTDriver VIs File Paths.vi" Type="VI" URL="../Set RTDriver VIs File Paths.vi"/>
 				<Item Name="Sort Main Properties.vi" Type="VI" URL="../SubVIs/Sort Main Properties.vi"/>
 				<Item Name="Update Selector Channel.vi" Type="VI" URL="../SubVIs/Update Selector Channel.vi"/>
 			</Item>

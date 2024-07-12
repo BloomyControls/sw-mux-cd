@@ -7,7 +7,7 @@ LabVIEW 2021
 ## Dependencies
 - [NI LabVIEW 2021 64-bit or later](https://www.ni.com/en/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en/support/downloads/software-products/download.labview-real-time-module.html)
-- [NI VeriStand and LabVIEW API](https://www.ni.com/en/support/downloads/software-products/download.veristand.html)
+- [NI VeriStand and VeriStand LabVIEW API](https://www.ni.com/en/support/downloads/software-products/download.veristand.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
 
 

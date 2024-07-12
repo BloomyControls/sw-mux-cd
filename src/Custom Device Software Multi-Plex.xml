@@ -1,11 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Build="0" Fix="0" Major="2010" Minor="0"/>
 	<AddMenu>
 		<eng>Software Multi-Plex</eng>
 		<loc>Software Multi-Plex</loc>
 	</AddMenu>
-	<Version>2.1.0</Version>
+	<Version>2.2.0</Version>
 	<Type>Inline HW Interface</Type>
 	<MaxOccurrence>100</MaxOccurrence>
 	<MainPageGUID>8413aea8-b960-4338-8def-49dbabb5ab11</MainPageGUID>
@@ -13,7 +12,7 @@
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -22,21 +21,21 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Engine Windows.lvlibp\Engine\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Software Multi-Plex\Software Multi-Plex Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Software Multi-Plex\Software Multi-Plex Engine Windows.lvlibp\Engine\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Software Multi-Plex\Linux_x64\Software Multi-Plex Engine Linux64.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Software Multi-Plex\Linux_x64\Software Multi-Plex Engine Linux64.lvlibp\Engine\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Software Multi-Plex\Software Multi-Plex Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Software Multi-Plex\Software Multi-Plex Engine Linux64.lvlibp\Engine\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
-	<Dependencies />
+	<Dependencies/>
 	<Pages>
 		<Page>
 			<Name>
@@ -50,7 +49,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -63,7 +62,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Export Configuration RTM.vi</Path>
+						<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Export Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -96,7 +95,7 @@
 			</ButtonList>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\ActionVIOnCompile.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
 		</Page>
 		<Page>
@@ -111,7 +110,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Channel.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -128,7 +127,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Selector.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Selector.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -145,7 +144,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Input.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Input.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -162,11 +161,11 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.llb\Output.vi</Path>
+				<Path>Custom Devices\Software Multi-Plex\Windows\Software Multi-Plex Configuration.lvlibp\System Explorer\Output.vi</Path>
 			</Item2Launch>
 		</Page>
 	</Pages>
 	<CustomXML>
-		<Dummy></Dummy>
+		<Dummy/>
 	</CustomXML>
 </CustomDevice>
